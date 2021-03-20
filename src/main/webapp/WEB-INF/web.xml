@@ -5,59 +5,69 @@
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
-  	<servlet-name>BookPublishingServlet</servlet-name>
-  	<servlet-class>example.pubhub.servlets.BookPublishingServlet</servlet-class>
+    <servlet-name>BookPublishingServlet</servlet-name>
+    <servlet-class>example.pubhub.servlets.BookPublishingServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>BookPublishingServlet</servlet-name>
-  	<url-pattern>/BookPublishing</url-pattern>
+    <servlet-name>BookPublishingServlet</servlet-name>
+    <url-pattern>/BookPublishing</url-pattern>
   </servlet-mapping>
   <servlet>
-  	<servlet-name>DownloadBookServlet</servlet-name>
-  	<servlet-class>example.pubhub.servlets.DownloadBoodServlet</servlet-class>
+    <servlet-name>DownloadBookServlet</servlet-name>
+    <servlet-class>example.pubhub.servlets.DownloadBookServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>DownloadBookServlet</servlet-name>
-  	<url-pattern>/DownloadBook</url-pattern>
+    <servlet-name>DownloadBookServlet</servlet-name>
+    <url-pattern>/DownloadBook</url-pattern>
   </servlet-mapping>
   <servlet>
-  	<servlet-name>PublishBookServlet</servlet-name>
-  	<servlet-class>example.pubhub.servlets.PublishBookServlet</servlet-class>
+    <servlet-name>PublishBookServlet</servlet-name>
+    <servlet-class>example.pubhub.servlets.PublishBookServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>PublishBookServlet</servlet-name>
-  	<url-pattern>/PublishBook</url-pattern>
+    <servlet-name>PublishBookServlet</servlet-name>
+    <url-pattern>/PublishBook</url-pattern>
   </servlet-mapping>
   <servlet>
-  	<servlet-name>TagBookServlet</servlet-name>
-  	<servlet-class>example.pubhub.servlets.TagBookServlet</servlet-class>
+    <servlet-name>TagBookServlet</servlet-name>
+    <servlet-class>example.pubhub.servlets.TagBookServlet</servlet-class>
   </servlet>
   <servlet-mapping>
- <servlet-name>TagBookServlet</servlet-name>
-  	<url-pattern>/TagBook</url-pattern>
-  </servlet-mapping>
-    <servlet>
-  <servlet-name>UpdateBookServlet</servlet-name>
-  	<servlet-class>example.pubhub.servlets.UpdateBookServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>UpdateBookServlet</servlet-name>
-  	<url-pattern>/UpdateBook</url-pattern>
+    <servlet-name>TagBookServlet</servlet-name>
+    <url-pattern>/TagBook</url-pattern>
   </servlet-mapping>
   <servlet>
-  	<servlet-name>ViewBookDetailsServlet</servlet-name>
-  	<servlet-class>example.pubhub.servlets.ViewBookDetailsServlet</servlet-class>
+    <servlet-name>UpdateBookServlet</servlet-name>
+    <servlet-class>example.pubhub.servlets.UpdateBookServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>ViewBookDetailsServlet</servlet-name>
-  	<url-pattern>/ViewBookDetails</url-pattern>
+    <servlet-name>UpdateBookServlet</servlet-name>
+    <url-pattern>/UpdateBook</url-pattern>
   </servlet-mapping>
   <servlet>
-  	<servlet-name>ViewBookTagsServlet</servlet-name>
-  	<servlet-class>example.pubhub.servlets.ViewBookTagsServlet</servlet-class>
+    <servlet-name>ViewBookDetailsServlet</servlet-name>
+    <servlet-class>example.pubhub.servlets.ViewBookDetailsServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>ViewBookTagsServlet</servlet-name>
-  	<url-pattern>/ViewBookTags</url-pattern>
+    <servlet-name>ViewBookDetailsServlet</servlet-name>
+    <url-pattern>/ViewBookDetails</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewBookTagsServlet</servlet-name>
+    <servlet-class>example.pubhub.servlets.ViewBookTagsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewBookTagsServlet</servlet-name>
+    <url-pattern>/ViewBookTags</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RemoveTagSevlet</display-name>
+    <servlet-name>RemoveTagSevlet</servlet-name>
+    <servlet-class>examples.pubhub.servlets.RemoveTagSevlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveTagSevlet</servlet-name>
+    <url-pattern>/RemoveTag</url-pattern>
   </servlet-mapping>
 </web-app>
