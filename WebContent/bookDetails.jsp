@@ -49,9 +49,6 @@
 		    <div class="col-sm-offset-4 col-sm-1">
 		      <button type="submit" class="btn btn-info">Update</button>
 		    </div>
-		    <div>
-		    	<button class="tags">Tags</button>
-		    </div>
 		  </div>
 		</form>
 
