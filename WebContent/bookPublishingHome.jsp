@@ -52,6 +52,12 @@
 								<input type="hidden" name="isbn13" value="${book.isbn13}">
 								<button class="btn btn-primary">Details</button>
 							</form></td>
+						<td>
+							<form action="bookTags.jsp" method="get">
+								<input type="hidden" name="isbn13" value="${book.isbn13}" />
+								<button class="btn btn-secondary">View Tags</button>
+							</form>
+						</td>
 					</tr>
 				</c:forEach>
 			</tbody>
